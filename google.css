@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+
+#nav_bar {
+  float: right;
+}
+
+#nav-bar-left{
+    position: relative;
+    top: 0px;
+    left: 0;
+    float: left;
+
+}
+
+#nav-bar-left li{
+display: inline-block;
+padding: 8px;
+color: #8a8585;
+position: relative;
+top: 0px;
+left: 0;
+}
+
+#nav-bar-left li a:hover{
+    text-decoration: underline;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+  color: #8a8585;
+  
+  
+  
+}
+
+#nav_bar #giris {
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#giris:hover { 
+  box-shadow: 1px 1px 5px #999;
+}
+
+#giris {
+  color: #fff;
+}
+
+
+#google_logo {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 112px;
+  padding-bottom: 20px;
+}
+
+.form{
+  border-radius: 100px;
+  text-align: center;
+
+}
+
+#form-search {
+    position: relative;
+    left: 14px;
+    bottom: 10px;
+  width: 450px;
+  line-height: 32px;
+  padding: 10px 10px;
+  border-radius: 35px;
+  border-top-color: #8a8585;
+  text-indent: 40px;
+}
+
+.form #form-search {
+  padding: 0 8px;
+}
+
+
+.buttons {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 300px;
+
+  
+} 
+
+.buttons input{
+    padding: 7px;
+    font-size: 12px;
+    margin: 5px;
+    color: #8a8585;
+    border: none;
+    border-radius: 3px;
+
+    background-color:rgba(209, 205, 205, 0.8)
+}
+
+.icon {
+    position: relative;
+    top: 10px;
+}
+
+.content {
+    font-size: 11px;
+}
+
+.English {
+    text-decoration:underline;
+    color: #073277;
+}
+
+#microphone{
+    width: 12px;
+    position: relative;
+    bottom: 3px;
+    right: 25px;
+}
+
+#search{
+    width: 30px;
+    position: relative;
+    top: 2px;
+    right: 460px;
+
+}
